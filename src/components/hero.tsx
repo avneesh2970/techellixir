@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, PlayCircle, Sparkles } from "lucide-react";
+import { ArrowRight, CheckCircle2, PlayCircle} from "lucide-react";
 import heroImage from "../assets/heowbg.png";
 
 const trustPoints = ["Product strategy", "UX-first delivery", "Cloud ready"];
