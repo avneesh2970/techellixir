@@ -5,12 +5,12 @@ const contactItems = [
   {
     icon: <MapPin size={28} />,
     title: "Office Address",
-    value: "Hyderabad, Telangana, India",
+    value: "15th Floor, The Iconic Corenthum, Block A, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301",
   },
   {
     icon: <Phone size={28} />,
     title: "Call Us",
-    value: "+91 98765 43210",
+    value: "+91 99175 29504",
   },
   {
     icon: <Mail size={28} />,

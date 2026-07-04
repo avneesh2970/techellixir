@@ -23,12 +23,12 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="eyebrow rounded-full border border-[#ffd8ce] bg-white/70 px-4 py-2 shadow-sm">
+            {/* <span className="eyebrow rounded-full border border-[#ffd8ce] bg-white/70 px-4 py-2 shadow-sm">
               <Sparkles size={15} />
               Digital products that feel effortless
-            </span>
+            </span> */}
 
-            <h1 className="section-title mt-7 text-4xl sm:text-5xl lg:text-6xl">
+            <h1 className="section-title mt-7 text-4xl sm:text-5xl lg:text-5xl">
               We design and build
               <span className="block text-[#FF4D37]">software people trust</span>
             </h1>

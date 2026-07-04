@@ -138,7 +138,7 @@ export default function Career() {
               Shortlisted candidates will be contacted with the next steps.
             </p>
             <a
-              href="https://forms.google.com/"
+              href="https://forms.gle/gedBkK75jMnxHF8t8"
               target="_blank"
               rel="noopener noreferrer"
               className="brand-button mt-9 px-9 py-4"
