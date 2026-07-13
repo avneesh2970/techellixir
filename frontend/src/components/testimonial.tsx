@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay,  Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
