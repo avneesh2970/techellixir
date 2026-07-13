@@ -104,7 +104,8 @@ body {
     justify-content: center;
     gap: 0.65rem;
     border-radius: 0.9rem;
-    background: linear-gradient(135deg, var(--brand), #ff7a45);
+    /* background: linear-gradient(135deg, var(--brand), #ff7a45); */
+    background:#ff4d37;
     color: #ffffff;
     font-weight: 800;
     box-shadow: 0 14px 30px rgba(255, 77, 55, 0.24);
@@ -115,6 +116,7 @@ body {
     transform: translateY(-2px);
     filter: saturate(1.05);
     box-shadow: 0 18px 38px rgba(255, 77, 55, 0.3);
+    
   }
 
   .ghost-button {
