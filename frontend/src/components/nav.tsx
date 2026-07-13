@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { ArrowRight, Menu, X } from "lucide-react";
+import Logo from "../assets/vite.svg";
 
 const menuItems = [
   { title: "Home", path: "/" },
@@ -36,12 +37,24 @@ const Navbar = () => {
 
         <div className="flex items-center justify-between">
 
-          <NavLink to="/" aria-label="TechEllixir home" className="group">
-            <h1 className="text-2xl sm:text-3xl font-black tracking-tight cursor-pointer">
-              <span className="text-[#FF4D37]">Tech</span>
-              <span className="text-[#182033] group-hover:text-[#111827] transition">Ellixir</span>
-            </h1>
-          </NavLink>
+          <NavLink
+  to="/"
+  aria-label="TechEllixir home"
+  className="group flex items-center gap-3"
+>
+  <img
+    src={Logo}
+    alt="TechEllixir Logo"
+    className="h-10 w-10 sm:h-12 sm:w-12 object-contain"
+  />
+
+  <h1 className="text-2xl sm:text-3xl font-black tracking-tight">
+    <span className="text-[#FF4D37]">Tech</span>
+    <span className="text-[#182033] group-hover:text-[#111827] transition">
+      Ellixir
+    </span>
+  </h1>
+</NavLink>
 
           <nav className="hidden lg:flex items-center gap-2 rounded-2xl border border-[#efe6df] bg-white/70 p-1 shadow-sm">
 

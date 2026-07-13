@@ -44,7 +44,7 @@ const Process = () => {
           className="mx-auto max-w-3xl text-center"
         >
           <p className="eyebrow justify-center">Our Process</p>
-          <h2 className="section-title mt-3 text-4xl md:text-5xl">
+          <h2 className="section-title mt-3 text-3xl md:text-4xl">
             A calmer path from idea to launch
           </h2>
           <p className="section-copy mt-5">

@@ -38,7 +38,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             <span className="eyebrow">About Us</span>
-            <h2 className="section-title mt-4 text-4xl lg:text-5xl">
+            <h2 className="section-title mt-4 text-3xl lg:text-4xl">
               Technology that fits the way your business moves
             </h2>
             <p className="section-copy mt-6 text-lg">

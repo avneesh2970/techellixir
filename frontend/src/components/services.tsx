@@ -60,7 +60,7 @@ const Services = () => {
           className="mx-auto max-w-3xl text-center"
         >
           <p className="eyebrow justify-center">Our Services</p>
-          <h2 className="section-title mt-4 text-4xl md:text-5xl">
+          <h2 className="section-title mt-4 text-3xl md:text-4xl">
             Practical engineering for every stage of growth
           </h2>
           <p className="section-copy mt-6">

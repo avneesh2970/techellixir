@@ -66,8 +66,8 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="relative mx-auto w-full max-w-xl"
           >
-            <div className="glass-card rounded-[1.75rem] p-4 sm:p-6">
-              <div className="rounded-[1.35rem] bg-gradient-to-br from-[#fff4ef] to-white p-4">
+            <div className=" ">
+              <div className=" ">
                 <img
                   src={heroImage}
                   alt="Digital product dashboard illustration"
@@ -100,7 +100,7 @@ const Hero = () => {
           </motion.div>
         </div>
 
-        <div className="mt-14 grid gap-4 rounded-3xl border border-[#efe6df] bg-white/70 p-4 shadow-sm backdrop-blur md:grid-cols-3">
+        <div className="mt-14 grid gap-4   p-4  backdrop-blur md:grid-cols-3">
           {stats.map(([value, label]) => (
             <div key={label} className="rounded-2xl bg-white p-5 text-center shadow-sm">
               <div className="text-3xl font-black text-[#FF4D37]">{value}</div>

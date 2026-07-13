@@ -1,5 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 
 const quickLinks = [
@@ -19,12 +19,27 @@ const services = [
 ];
 
 const socialLinks = [
-  ["Facebook", <FaFacebookF size={18} />],
-  ["LinkedIn", <FaLinkedinIn size={18} />],
-  ["Instagram", <FaInstagram size={18} />],
-  ["X", <FaXTwitter size={18} />],
+  [
+    "Facebook",
+    "https://www.facebook.com/share/1G7wLf1ava/",
+    <FaFacebookF size={18} />,
+  ],
+  [
+    "LinkedIn",
+    "https://www.linkedin.com/company/101979344/admin/dashboard/",
+    <FaLinkedinIn size={18} />,
+  ],
+  [
+    "Instagram",
+    "https://www.instagram.com/techellixir_official?igsh=MWFqYTh4OHJlenl2eg==",
+    <FaInstagram size={18} />,
+  ],
+  [
+    "YouTube",
+    "https://youtube.com/@techellixir?si=CiEG8jfJLO3oaOCh",
+    <FaYoutube size={18} />,
+  ],
 ];
-
 const Footer = () => {
   return (
     <footer className="bg-[#141A27] text-white">
@@ -39,16 +54,18 @@ const Footer = () => {
               and cloud services for businesses ready to move with confidence.
             </p>
             <div className="mt-8 flex gap-3">
-              {socialLinks.map(([label, icon]) => (
-                <a
-                  key={label as string}
-                  href="#"
-                  aria-label={label as string}
-                  className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/8 text-white transition hover:bg-[#FF4D37]"
-                >
-                  {icon}
-                </a>
-              ))}
+              {socialLinks.map(([label, url, icon]) => (
+  <a
+    key={label as string}
+    href={url as string}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={label as string}
+    className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/8 text-white transition hover:bg-[#FF4D37]"
+  >
+    {icon}
+  </a>
+))}
             </div>
           </div>
 
@@ -88,6 +105,10 @@ const Footer = () => {
               <div className="flex gap-3">
                 <Mail className="flex-none text-[#FF7A45]" size={20} />
                 <span className="text-gray-300">info@techellixir.com</span>
+              </div>
+              <div className="flex gap-3">
+                <Mail className="flex-none text-[#FF7A45]" size={20} />
+                <span className="text-gray-300">internship@techellixir.com</span>
               </div>
             </div>
           </div>

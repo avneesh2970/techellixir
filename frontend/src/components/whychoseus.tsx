@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
           className="mx-auto max-w-3xl text-center"
         >
           <p className="eyebrow justify-center">Why Choose Us</p>
-          <h2 className="section-title mt-4 text-4xl md:text-5xl">
+          <h2 className="section-title mt-4 text-3xl md:text-4xl">
             A technology partner that stays accountable
           </h2>
           <p className="section-copy mt-5">
